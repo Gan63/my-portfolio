@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-compatible" content="IE-edge">
+<meta name="viewport" content="width-device-width,initial-scale=1.0">
+<title>personal protfolio website</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/b261ad340f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+                 <nav>
+                <div class="logo">
+                    <h1 class="logo"><span>G</span>anesh</h1>
+                    <P><span>D</span>ata<span>S</span>cientist</P>
+
+                </div>
+                <div>
+                    <img src="images/programmer-8277836_1280.jpg" alt="Avatar" class="avatar">
+                </div>
+                
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#protfolio">Protfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hello, <br>I'm <span>Ganesh</span> <br>from India </h1>
+                <marquee width="20%" behavior="sliding" direction="right" hight="50px" >love to code </marquee>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/programmer-8277836_1280.jpg" alt="Avatar" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p> I am a dedicated data analyst hailing from Coimbatore, Tamil Nadu, with a passion for cricket. Currently engaged in various projects and internships, I am furthering my expertise in data science through online courses. Proficient in Python and algorithms, I bring a keen analytical eye to every project, striving to uncover actionable insights and drive meaningful change. With a commitment to continuous learning and a love for the game of cricket,
+                         I approach challenges with enthusiasm and determination, eager to make a positive impact in the field of data analysis. </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Python</span><br>Data cleaning</li>
+                            <li><span>machine learning</span><br>model selection</section></li>
+                            <li><span>Data Visualization</span><br>Seaborn,Matplotlib</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>Fresher</span><br>Iam 2024 batch pass out student   </li>
+                            <li><span>Current</span><br>currrently doing internship in datamites</li>
+                            <li><span>Project</span><br>T20 world cup visualzation,<br>Fifa20 clustering,<br>In_cost_pred</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>Schooling</span><br>TJMHSS</li>
+                            <li><span>College</span><br>SNMV</li>
+                            <li><span>Data science</span><br>Datamites</li>
+                        </ul>
+                    </div>
+               
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------------------services---------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">my services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>python</h2>
+                    <p> </p>
+                    <a href="#"></a>
+                </div>
+              <div>
+                <i class="fa-solid fa-gears"></i>
+                    <h2>machine learning</h2>
+                    <p> </p>
+                    <a href="#"></a>
+           </div>
+              <div>
+                <i class="fa-solid fa-magnifying-glass-chart"></i>
+                    <h2>Data visualzation</h2>
+                    <p> </p>
+                    <a href="#"></a>
+            </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------------portfolio---------------- -->
+    <div id="protfolio">
+        <div class="container">
+            <h1 class="sub-title">my work </h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/1710259301152.png" >
+                    <div class="layer">
+                    <h3>T20 world cup analysis</h3>
+                    <p> The T20 World Cup is a premier international cricket tournament 
+                        featuring the world's top teams competing in the fast-paced Twenty20 format.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>   
+                </div>
+                <div class="work">
+                    <img src="images/fifa20images.jpeg" >  
+                    <div class="layer">
+                        <h3>fif20 clustering</h3>
+                        <p>Clustering in FIFA 20 refers to the process of grouping similar players or teams together
+                             based on various attributes such as skill level, playing style, or position.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>        
+                </div>
+                <div class="work">
+                    <img src="images/images.jpeg" > 
+                    <div class="layer">
+                        <h3>In_cost_pred</h3>
+                        <p>"ins_cost_pred" likely stands for "insurance cost prediction," referring to a model or system designed to 
+                            forecast the cost of insurance premiums based on various factors such as age, health status, location, etc.     </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>         
+                </div>
+            </div>  
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <!--------------------------contant---------------->
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">contact me </h1>
+                <p><i class="fas fa-paper-plane"></i>ganeshskl682002@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>+91 9566441381</p> 
+
+                <div class="social-icons">
+                <a href="https://www.facebook.com/ganesh.gan.90260403?mibextid=ZbWKwL"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="https://www.instagram.com/g_a_n_63?igsh=MXRzb21hb3c3ZmVydA=="><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/ganesh68?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/my resum ds.pdf" download class="btn btn2">Download resume</a>
+            </div>
+            <div class="contact-right"> 
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="email" placeholder="your mail id"required>
+                    <textarea name="message"  rows="6" placeholder="contact me"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright@ganesh<i class="fas fa-heart"></i>Thank you</p>
+    </div>
+   </div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links"); 
+    var tabcontents = document.getElementsByClassName("tab-contents");
+     
+     function opentab(tabname){
+        for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+       
+
+     }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+
+    }
+     function closemenu(){
+        sidemenu.style.right = "-200px";
+        
+    }
+
+</script>
+<form name="submit-to-google-sheet">
+    <input name="email" type="email" placeholder="Email" required>
+    <button type="submit">Send</button>
+  </form>
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxiUiSw5SMpnu7BSIlOPAsN_iZBZvCSFVcr9QL9jLb2LKcNpjw1fsipdYyaAAVlp_TQ6w/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
